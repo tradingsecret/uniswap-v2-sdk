@@ -1,14 +1,13 @@
 {
-  "name": "@uniswap/v2-sdk",
+  "name": "@tradingsecret/sdkv2",
   "license": "MIT",
-  "version": "1.0.7",
-  "description": "🛠 An SDK for building applications on top of Uniswap V2",
+  "version": "1.0.0",
+  "description": "🛠 custom sdk.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/Uniswap/uniswap-v2-sdk.git",
   "keywords": [
     "uniswap",
     "ethereum"
@@ -25,6 +24,7 @@
     "@ethersproject/address": "^5.0.0",
     "@ethersproject/solidity": "^5.0.0",
     "@uniswap/sdk-core": "^1.0.9",
+    "jsbi": "^3.1.4",
     "tiny-invariant": "^1.1.0",
     "tiny-warning": "^1.0.3"
   },
@@ -41,5 +41,6 @@
     "printWidth": 120,
     "semi": false,
     "singleQuote": true
-  }
+  },
+  "author": "Swap account"
 }
